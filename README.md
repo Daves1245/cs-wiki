@@ -8,20 +8,48 @@ In order to get started with learning computing, you'll want a primer on how to 
 
 Here is a collection of wiki entries regarding data structures:
 
-| Wiki Entry    | Usage Case    |
-| ------------- | ------------- |
-| `hashmaps.md`   | NOTE: TODO |
-| `heaps.md`   | When you want to add elements to a datastructure quickly, and you want to efficiently peek and remove the "smallest" element out of the data structure |
-| `bbst.md`   | NOTE: TODO |
+| Wiki Entry                  | Usage Case                                                                                                                                             |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [[hashmaps]]                | NOTE: TODO                                                                                                                                             |
+| [[heaps]]                   | When you want to add elements to a datastructure quickly, and you want to efficiently peek and remove the "smallest" element out of the data structure |
+| [[bbst]]                    | NOTE: TODO                                                                                                                                             |
+| [[linked-lists]]            |                                                                                                                                                        |
+| [[stack]]                   |                                                                                                                                                        |
+| [[queue]]                   | Processing things in order                                                                                                                             |
+| [[priority-queue]]          | Processing things in special order                                                                                                                     |
+| [[sets]]                    | A group of                                                                                                                                             |
+| [[maps]]                    |                                                                                                                                                        |
+| [[ordered-statistics-tree]] |                                                                                                                                                        |
+| [[li-chao-tree]]            |                                                                                                                                                        |
+| [[sparse-table]]            |                                                                                                                                                        |
+| [[segment-tree]]            |                                                                                                                                                        |
+| [[persistent-segment-tree]] |                                                                                                                                                        |
+| [[implicit-segment-tree]]   |                                                                                                                                                        |
+| [[monotonic-stack]]         |                                                                                                                                                        |
+| [[monotonic-queue]]         |                                                                                                                                                        |
+| [[disjoint-set-union]]      |                                                                                                                                                        |
+| [[prefix-sum]]              |                                                                                                                                                        |
+|                             |                                                                                                                                                        |
 
-## Advanced Linux
+## CS Theory
+
+General theory 
+
+| Wiki Entry         | Usage Case |
+| ------------------ | ---------- |
+| [[Big O Notation]] |            |
+|                    |            |
+
+
+## Advanced [[Linux]]
 
 For using Linux at a more advanced level, you'll need a deeper understanding of how it works. This includes an explanation of what Linux does, and it also includes a full description of what bash can do.
 
-| Wiki Entry    | Usage Case    |
-| ------------- | ------------- |
-| `linux.md`    | Explains everything you need to know about the Linux Kernel |
-| `bash.md`     | Explains the full usage send semantics of bash |
+| Wiki Entry     | Usage Case                                                  |
+| -------------- | ----------------------------------------------------------- |
+| [[linux]]      | Explains everything you need to know about the Linux Kernel |
+| [[bash]]       | Explains the full usage send semantics of bash              |
+| [[networking]] |                                                             |
 
 ## Creating and Hosting a website
 

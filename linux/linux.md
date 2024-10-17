@@ -1,6 +1,6 @@
 ## Linux
 
-This document explains all the ins-and-outs of the Linux Operating System. It's recommended that you read `linux-basics.md` first.
+This document explains all the ins-and-outs of the Linux Operating System. It's recommended that you read [[linux-basics]] first.
 
 - The Virtual File System
     - Hardlinks and Softlinks
@@ -9,7 +9,7 @@ This document explains all the ins-and-outs of the Linux Operating System. It's 
 
 ### The Virtual File System
 
-Before we talk about anything else, we should first distinguish two different types of filesystems. There's the standard physical filesystem that we're used to understanding. And, there's the _Virtual_ File System (VFS) that you've likely interacted with far more often.
+Before we talk about anything else, we should first distinguish two different types of [[filesystems]]. There's the standard physical filesystem that we're used to understanding. And, there's the _Virtual_ File System (VFS) that you've likely interacted with far more often.
 
 When we talk about the physical filesystem, we often understand it quite well. But let's see why one is created: When Linux is installed onto a partition, the first thing we give it is a (hopefully) unused partition with nothing on it. So the first thing the linux installer does, is it splits the contiguous partition into physical files on disk, where each/file/path refers to a specific region of bytes on the partition to read/write from, and it stores metadata to keep track of which regions of bytes are for which files. Linux prefers the ext4 format for such data management on the physical filesystem.
 
@@ -34,7 +34,7 @@ npip99@razer-blade:~$ file /usr/bin/gcc
 
 #### Permissions
 
-The Linux VFS has a few rules for interacting with it. For an executable to read to a file, the user who ran the executable needs to have read permissions for that file. It also needs to have read permissions for every parent directory of that file. There are two types of paths however: Absolute, and Relative. If you use an absolute path like "/home/myuser/some/path/to/file", then you must have read permissions for "/home", "/home/myuser", "/home/myuser/some", "/home/myuser/some/path", "/home/myuser/some/path/to", and "/home/myuser/some/path/to/file". However, if your current working directory is "/home/myuser/some/path", then you can instead try reading the relative path "./to/file", where "." refers to your current directory. Then, you only need read permissions for "./to" and "./to/file". When bash runs as a user, it has the limitations of the user who first logged in. Additionally, every command ran by bash is limited to the same restrictions as bash itself. Permissions can't increase when you call a child, unless you use something like `sudo` to escalate to a higher level of permission. The same restrictions hold for write permissions and execute permissions. Also, in order to "ls" a directory, you need execute permissions on that directory. If you don't have execute permissions on the directory, then you can still "cd" into a child, but you'd need to brute-force the directory names, you can't simply "ls" them.
+The Linux VFS has a few rules for interacting with it. For an executable to read to a file, the user who ran the executable needs to have read permissions for that file. It also needs to have read permissions for every parent directory of that file. There are two types of paths however: Absolute, and Relative. If you use an absolute path like "/home/myuser/some/path/to/file", then you must have read permissions for "/home", "/home/myuser", "/home/myuser/some", "/home/myuser/some/path", "/home/myuser/some/path/to", and "/home/myuser/some/path/to/file". However, if your current working directory is "/home/myuser/some/path", then you can instead try reading the relative path "./to/file", where "." refers to your current directory. Then, you only need read permissions for "./to" and "./to/file". When [[bash]] runs as a user, it has the limitations of the user who first logged in. Additionally, every command ran by bash is limited to the same restrictions as bash itself. Permissions can't increase when you call a child, unless you use something like `sudo` to escalate to a higher level of permission. The same restrictions hold for write permissions and execute permissions. Also, in order to "ls" a directory, you need execute permissions on that directory. If you don't have execute permissions on the directory, then you can still "cd" into a child, but you'd need to brute-force the directory names, you can't simply "ls" them.
 
 All files have an "owner", which is the user that owns that file. Additionally, you the owner of your file can give a "group" access to your file. If you want to know what groups you yourself are a part of, just execute `groups`.
 
