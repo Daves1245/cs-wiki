@@ -1,0 +1,2 @@
+#competitive-programming #math
+[[Math]]
