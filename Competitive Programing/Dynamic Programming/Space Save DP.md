@@ -1,3 +1,3 @@
 #competitive-programming #dynamic-programming #optimizations
-[[Dynamic Programing]]
+[[Dynamic Programming]]
 [[DP Optimizations]]

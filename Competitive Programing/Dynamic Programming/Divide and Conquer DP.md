@@ -1,4 +1,4 @@
 #competitive-programming #dynamic-programming 
 
-[[Dynamic Programing]]
+[[Dynamic Programming]]
 [[DP Optimizations]]

@@ -1,3 +1,3 @@
 #competitive-programming #dynamic-programming #strings 
-[[Dynamic Programing]]
+[[Dynamic Programming]]
 [[Strings]]

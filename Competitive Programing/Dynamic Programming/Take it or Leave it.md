@@ -1,2 +1,2 @@
 #competitive-programming #dynamic-programming 
-[[Dynamic Programing]]
+[[Dynamic Programming]]

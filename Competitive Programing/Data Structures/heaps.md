@@ -1,7 +1,7 @@
 #data-structures
 ## Let’s consider a problem:
 
-We propose a data structure that allows us to quickly find the minimal element, remove the minimal element, and add an arbitrarily element to the structure, all in O(logn).
+We propose a [[Data Structures]] that allows us to quickly find the minimal element, remove the minimal element, and add an arbitrarily element to the structure, all in O(logn).
 
 ### The situation
 So: Let’s say, you are running a stock market. At any time, people can post their stock as “for sale”, and list what price they want to sell their stock at, just like as if they were selling oranges, many sellers sell oranges for many prices. And, at any time, an investor might arrive, and want to know what the cheapest stock available is. Obviously, the investor doesn’t care that someone wants to sell a stock for $9 if an $8 stock is available for the same share in the same company. The investor may either pass on the offer, or may buy that stock going at the lowest price.

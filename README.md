@@ -4,7 +4,7 @@
 
 In order to get started with learning computing, you'll want a primer on how to use Linux. So, first take a look at `linux-basics.md` if you haven't already, you'll need to know what's in there before reading anything else.
 
-## Data Structures
+## [[Data Structures]]
 
 Here is a collection of wiki entries regarding data structures:
 
@@ -33,7 +33,7 @@ Here is a collection of wiki entries regarding data structures:
 | [[Treaps]]                  | A special type of balanced binary tree                                                                                                                 |
 | [[DSU Rollback]]            | DSU with rollback                                                                                                                                      |
 
-## Trees
+## [[Trees]]
 
 | Wiki Entry                    | Usage                                               |
 | ----------------------------- | --------------------------------------------------- |
@@ -51,7 +51,7 @@ Here is a collection of wiki entries regarding data structures:
 | [[Splay Tree]]                |                                                     |
 | [[Link Cut Tree]]             |                                                     |
 
-## Graphs
+## [[Graphs]]
 
 | Wiki Entry                        | Usage Case |
 | --------------------------------- | ---------- |
@@ -60,7 +60,7 @@ Here is a collection of wiki entries regarding data structures:
 | [[Breadth First Search]]          |            |
 | [[Bipartite Matching]]            |            |
 
-## Math
+## [[Math]]
 
 | Wiki Entry                      | Usage Case |
 | ------------------------------- | ---------- |
@@ -73,7 +73,7 @@ Here is a collection of wiki entries regarding data structures:
 | [[Fast Fourier Transform]]      |            |
 |                                 |            |
 
-## Game Theory
+## [[Game Theory]]
 
 | Wiki Entry      | Usage Case |
 | --------------- | ---------- |
@@ -104,7 +104,7 @@ Here is a collection of wiki entries regarding data structures:
 | [[Rollback]]               |     |
 | [[Lazy Propogation]]       |     |
 
-## Dynamic Programming
+## [[Dynamic Programming]]
 
 | Wiki Entry                   | Usage |
 | ---------------------------- | ----- |
@@ -124,7 +124,7 @@ Here is a collection of wiki entries regarding data structures:
 | [[Knuth (Opt)]]              |       |
 | [[DP as a DAG]]              |       |
 
-## Flows
+## [[Flows]]
 
 | Wiki Entry        | Usage Case |
 | ----------------- | ---------- |
@@ -133,7 +133,7 @@ Here is a collection of wiki entries regarding data structures:
 | [[Min Cost Flow]] |            |
 |                   |            |
 
-## Strings
+## [[Strings]]
 
 | Wiki Entry        | Usage Case |
 | ----------------- | ---------- |
@@ -145,7 +145,7 @@ Here is a collection of wiki entries regarding data structures:
 | [[Eertree]]       |            |
 
 
-## CS Theory
+## [[CS Theory]]
 
 General theory 
 
@@ -166,7 +166,7 @@ For using Linux at a more advanced level, you'll need a deeper understanding of 
 | -------------- | ----------------------------------------------------------- |
 | [[linux]]      | Explains everything you need to know about the Linux Kernel |
 | [[bash]]       | Explains the full usage send semantics of bash              |
-| [[networking]] |                                                             |
+| [[Networking]] |                                                             |
 
 ## Creating and Hosting a website
 

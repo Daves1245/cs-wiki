@@ -1,1 +1,3 @@
-#competitive-programming 
+#competitive-programming #graphs 
+
+[[Graphs]]
